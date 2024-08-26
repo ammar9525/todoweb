@@ -25,6 +25,3 @@ app.get("/", (req, res) => {
   res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html")); 
 });
 
-app.listen(1000, () => {
-    console.log("Server Started")
-});
